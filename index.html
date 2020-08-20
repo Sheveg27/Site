@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <title>Портфолио Junior верстальщика</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
   </head>
@@ -25,14 +25,23 @@
     <section class="intro">
       <div class="container">
       <h2 class="subheading">Давайте познакомимся</h2>
-      <figure>
-        <img ="files/user.jpg" class="user-image" width="928" height="536" alt="Личная Фотография">
+      <figure class="user-image">
+        <img src="files\user.jpg"  width="366" height="500" alt="Личная Фотография">
       </figure>
       <h3>Пара слов о себе</h3>
       <p>Мне 25 лет и я делаю первые шаги в IT</p>
       <h3>Чем могу быть полезен</h3>
       <p>Поделюсь своей историей, как сможете сменить профессию и Вы!</p>
+      <div class="skills">
+      <h3>Мои навыки</h3>
+        <dl class="skills-list">
+          <dt class="skill-html">HTML</dt>
+          <dd class="level" style="width: 60%;"><div>60%</div></dd>
+          <dt class="skill-css">CSS</dt>
+          <dd class="level" style="width: 40%;"><div>40%</div></dd>
+        </dl>
       </div>
+    </div>
     </section>
 
     <section class="portfolio">
@@ -44,10 +53,11 @@
         <img src="files/project.jpg" width="928" height="536" alt="Cайт инструктора Кекса">
       </figure>
       <p>Небольшой лендинг о школе для начинающих.</p>
-      <a class="button" href="source/project/index.html">Открыть страницу</a>
+      <a class="button" href="source/keks/index.html">Открыть страницу</a>
       
       <h3>Блог начинающего верстальщика</h3>
       <p>Статический блог про обучение HTML и CSS.</p>
+      <a class="button" href="source/site/index.html">Открыть страницу</a>
       </div>
     </section>
 
